@@ -7,7 +7,7 @@
 <!-- **                                                       ** -->
 <!-- *********************************************************** -->
 <project name="OpenMRS-trunk" default="dist" xmlns:artifact="urn:maven-artifact-ant">
-
+<property name="JR" />
 	<property environment="env"/>
 	<property name="root.dir" value="."/>
 	<property name="lib.dir" value="${root.dir}${file.separator}lib"/>
